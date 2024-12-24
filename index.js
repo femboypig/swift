@@ -6,7 +6,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Middleware
+// Middleware ss
 app.use(cors());
 app.use(express.json());
 app.use(express.static('www'));
